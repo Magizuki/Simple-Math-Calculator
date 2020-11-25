@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E1B1B"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/CalcView"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:background="#ECDEDE"
+        android:text=""
+
+        android:textColor="#121111"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/OneBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/CalcView"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="41dp"
+        android:text="1"
+        android:onClick="Add"
+
+        />
+
+    <Button
+        android:id="@+id/TwoBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/CalcView"
+        android:layout_marginTop="41dp"
+        android:layout_marginLeft="160dp"
+        android:text="2"
+        android:onClick="Add"
+        />
+
+    <Button
+        android:id="@+id/ThreeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/CalcView"
+        android:layout_marginTop="41dp"
+        android:layout_marginLeft="280dp"
+        android:text="3"
+        android:onClick="Add"
+        />
+
+    <Button
+        android:id="@+id/FourBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/OneBtn"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="41dp"
+        android:text="4"
+        android:onClick="Add"
+
+
+        />
+
+    <Button
+        android:id="@+id/FiveBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/OneBtn"
+        android:layout_marginTop="41dp"
+        android:layout_marginLeft="160dp"
+        android:text="5"
+        android:onClick="Add"
+        />
+
+    <Button
+        android:id="@+id/SixBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/OneBtn"
+        android:layout_marginTop="41dp"
+        android:layout_marginLeft="280dp"
+        android:text="6"
+        android:onClick="Add"
+        />
+
+    <Button
+        android:id="@+id/SevenBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FourBtn"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="41dp"
+        android:text="7"
+        android:onClick="Add"
+
+
+        />
+
+    <Button
+        android:id="@+id/eightBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FourBtn"
+        android:layout_marginTop="41dp"
+        android:layout_marginLeft="160dp"
+        android:text="8"
+        android:onClick="Add"
+        />
+
+    <Button
+        android:id="@+id/nineBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FourBtn"
+        android:layout_marginTop="41dp"
+        android:layout_marginLeft="280dp"
+        android:text="9"
+        android:onClick="Add"
+        />
+
+    <Button
+        android:id="@+id/ZeroBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SevenBtn"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="41dp"
+        android:text="0"
+        android:onClick="Add"
+
+        />
+
+    <Button
+        android:id="@+id/PlusBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SevenBtn"
+        android:layout_marginTop="41dp"
+        android:layout_marginLeft="160dp"
+        android:text="+"
+        android:onClick="Add"
+        />
+
+    <Button
+        android:id="@+id/MinusBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SevenBtn"
+        android:layout_marginTop="41dp"
+        android:layout_marginLeft="280dp"
+        android:text="-"
+        android:onClick="Add"
+        />
+
+    <Button
+        android:id="@+id/MultiplyBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PlusBtn"
+        android:layout_marginTop="41dp"
+        android:layout_marginLeft="100dp"
+        android:text="X"
+        android:onClick="Add"
+        />
+
+    <Button
+        android:id="@+id/DivisionBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MinusBtn"
+        android:layout_marginTop="41dp"
+        android:layout_marginLeft="220dp"
+        android:text="/"
+        android:onClick="Add"
+        />
+
+    <Button
+        android:id="@+id/CalculateBtn"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MultiplyBtn"
+        android:layout_marginTop="23dp"
+        android:onClick="Calculate"
+        android:text="CALCULATE" />
+
+    <Button
+        android:id="@+id/ResetBtn"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MultiplyBtn"
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="250dp"
+        android:onClick="Reset"
+        android:text="RESET" />
+
+</RelativeLayout>
